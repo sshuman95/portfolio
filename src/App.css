@@ -1,38 +1,144 @@
-.App {
+.App{
+  color:white;
+}
+
+.mainHead{
+ display:grid;
+ grid-template-columns: 2fr 1fr;
+ grid-template-rows: repeat(4,1fr);
+ align-items:center;
+ width: 100%;
+min-height: 100vh;
+}
+
+.header{
+  background-color: #A8D0E6;
+  grid-column:1/2;
+  grid-row:1/5;
+  height:100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header h2{
+  margin-bottom:0;
+  align-self: center;
+}
+
+.header h3{
+  margin-top:0;
+}
+
+.headNav{
+  grid-column:2/3;
+  grid-row:1/3;
+  height:100%;
+  background-color: #F76c6c;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headNav ul{
+  list-style: none;
+  padding:0;
+ margin:0;
+}
+
+
+.headNav ul li{
+ padding:0;
+ margin:0;
+}
+
+
+.headSec{
+  grid-column:2/3;
+  grid-row:3/5;
+  height:100%;
+  background-color: #24305E;
+  display:flex;
+  flex-direction: column;
+justify-content: flex-end;
+
+}
+
+.headSec article{
+  width:90%;
+  margin:0 auto;
+}
+
+.headSec h3{
+  border-bottom:1px solid white;
+}
+
+figure{
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.me{
+  border-radius: 100%;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section1{
+  background-color:#374785;
+  height:100%;
+  margin:0;
+  padding-top:10px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+
+.section1 h3{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	font-weight: normal;
+	width: 100%;
+  text-align: center;
+  font-size:2em;
   color: white;
+  margin-bottom:0;
+}	
+
+.section1 article header{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+.section1 article header a{
+  color: white;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+@media only screen and (max-width:750px){
+  .header{
+    grid-column:1/3;
+    grid-row:1/3;
   }
-  to {
-    transform: rotate(360deg);
+
+  .headNav{
+    grid-column:1/3;
+    grid-row:3/4;
+
+  }
+
+
+  .headSec{
+    grid-column:1/3;
+    grid-row:4/5;
+
   }
 }
