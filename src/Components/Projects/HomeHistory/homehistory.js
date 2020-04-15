@@ -11,7 +11,7 @@ function HomeHistory() {
               </header>
             <article>
             <figure>
-                <img src={Image} className='homeHistoryImage'/>
+                <img src={Image} alt='Home History Website' className='homeHistoryImage'/>
               </figure>
               <div style={{display:'flex',flexDirection:'column'}}>
               <p>This project was an e-commerce application for a personal knitting store. </p>

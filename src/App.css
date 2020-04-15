@@ -1,5 +1,6 @@
 .App{
   color:white;
+  font-family: Consolas;
 }
 
 .mainHead{
@@ -62,8 +63,7 @@ min-height: 100vh;
   background-color: #24305E;
   display:flex;
   flex-direction: column;
-justify-content: flex-end;
-
+  justify-content: center;
 }
 
 .headSec article{
@@ -75,50 +75,13 @@ justify-content: flex-end;
   border-bottom:1px solid white;
 }
 
-figure{
+.headSec figure{
   align-items: center;
   text-align: center;
 }
 
 .me{
   border-radius: 100%;
-
-}
-
-.section1{
-  background-color:#374785;
-  height:100%;
-  margin:0;
-  padding-top:10px;
-  
-}
-
-
-
-.section1 h3{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	align-content: center;
-	text-align: center;
-	font-weight: normal;
-	width: 100%;
-  text-align: center;
-  font-size:2em;
-  color: white;
-  margin-bottom:0;
-}	
-
-.section1 article header{
-  display:flex;
-  flex-direction: column;
-  text-align: center;
-
-}
-
-.section1 article header a{
-  color: white;
-  text-decoration: none;
 }
 
 

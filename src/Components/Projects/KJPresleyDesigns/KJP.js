@@ -10,7 +10,7 @@ function KJP() {
               </header>
             <article>
               <figure>
-                <img src={Image} className='kjpImage'/>
+                <img src={Image} alt='KJPresley Designs Website' className='kjpImage'/>
               </figure>
               <div style={{display:'flex',flexDirection:'column'}}>
               <p>This project was an e-commerce application for a personal knitting store. </p>
