@@ -1,10 +1,11 @@
 import React from 'react';
-import logo from './logo.jpg';
+import logo from './logo.png';
 import newLogo from './new_logo.png';
 import KJP from './Components/Projects/KJPresleyDesigns/KJP';
 import Ravenous from './Components/Projects/Ravenous/ravenous';
 import HomeHistory from './Components/Projects/HomeHistory/homehistory';
 import './App.css';
+
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
         <ul>
           <li>GitHub</li>
           <li>LinkedIn</li>
-          <li>third</li>
+          <li>Projects</li>
+          <li>Contact</li>
         </ul>
       </nav>
       <section className='headSec'>

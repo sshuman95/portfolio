@@ -1,63 +1,9 @@
-.homeHistory{
-  background-color: #F76c6c;
-    height:100%;
-    margin:0;
-    padding-top:10px;
-    
-  }
-  
-  
-  
-  .homeHistory h3{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      align-content: center;
-      text-align: center;
-      font-weight: normal;
-      width: 100%;
-    text-align: center;
-    font-size:2em;
-    color: white;
-    margin-bottom:0;
-  }	
-  
-  .homeHistory header{
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    
-  }
-  
-  .homeHistory header a{
-    color: white;
-    text-decoration: none;
-  }
 
 
-  .homeHistory article{
-    display:flex;
-    justify-content: space-around;
-  }
 
-  .homeHistory article p{
-    min-width:35vw;
-    color: white;
-  }
-
-  .homeHistoryImage{
-    width:45vw;
-  }
-
-
-  
 @media only screen and (max-width:750px){
-  .homeHistory article{
-    display:flex;
-    flex-direction: column;
-    align-items:center;
+  .homeHistory{
+    grid-column:1/3;
+    grid-row:3/3;
   }
-
-
- 
 }

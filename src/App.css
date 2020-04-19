@@ -10,10 +10,17 @@
  align-items:center;
  width: 100%;
 min-height: 100vh;
+
+}
+
+main{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-top:50px;
 }
 
 .header{
-  background-color: #A8D0E6;
   grid-column:1/2;
   grid-row:1/5;
   height:100%;
@@ -21,6 +28,10 @@ min-height: 100vh;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background-image: url('./rva.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header h2{
@@ -36,11 +47,14 @@ min-height: 100vh;
   grid-column:2/3;
   grid-row:1/3;
   height:100%;
-  background-color: #F76c6c;
+  color: white;
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color:rgba(30,40,11,.7) !important;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .headNav ul{
@@ -60,7 +74,8 @@ min-height: 100vh;
   grid-column:2/3;
   grid-row:3/5;
   height:100%;
-  background-color: #24305E;
+  color:rgba(30,40,11,.7);
+  background-color: white;
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -103,5 +118,13 @@ min-height: 100vh;
     grid-column:1/3;
     grid-row:4/5;
 
+  }
+
+  main{
+    margin-top:35px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height:185vh;
   }
 }
