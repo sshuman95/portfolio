@@ -4,7 +4,9 @@ import newLogo from './new_logo.png';
 import KJP from './Components/Projects/KJPresleyDesigns/KJP';
 import Ravenous from './Components/Projects/Ravenous/ravenous';
 import HomeHistory from './Components/Projects/HomeHistory/homehistory';
+import Resume from './Components/Resume/resume';
 import './App.css';
+
 
 
 function App() {
@@ -19,10 +21,12 @@ function App() {
       </hgroup>
       <nav className='headNav'>
         <ul>
-          <li>GitHub</li>
-          <li>LinkedIn</li>
-          <li>Projects</li>
+          <li><a href="https://github.com/sshuman95" rel="noopener noreferrer" target="_blank">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/sidney-shuman-604966160/" rel="noopener noreferrer" target="_blank">LinkedIn</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
           <li>Contact</li>
+         
         </ul>
       </nav>
       <section className='headSec'>
@@ -36,9 +40,14 @@ function App() {
       </section>
       </header>
       <main>
-        <KJP/>
-        <Ravenous/>
-        <HomeHistory/>
+        <article id='projects'>
+          <KJP/>
+          <Ravenous/>
+          <HomeHistory/>
+        </article>
+        <article id='resume'>
+          <Resume/>
+        </article>
       </main>
       <footer>
 
