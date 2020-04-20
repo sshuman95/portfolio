@@ -19,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
     ['@media (max-width:750px)']: { // eslint-disable-line no-useless-computed-key
       marginTop:10
     },
+    height:480
   },
   media: {
     height: 0,
@@ -83,8 +84,7 @@ function Ravenous() {
       />
       <CardContent className={classes.content} >
         <Typography className={classes.contentP} variant="body2" color="textSecondary" component="p">
-          This impressive paella is a perfect party dish and a fun meal to cook together with your
-          guests. Add 1 cup of frozen peas along with the mussels, if you like.
+          Using the Yelp API this app finds restuarants based on the user's search. This app can use multiple search parameters, such as "Best Match", "Highest Rated", or "Most Reviewed". The JSON data is then mapped to create an eye catching design.
         </Typography>
         <div className={classes.div}>
           <FontAwesomeIcon icon={faHtml5} size="2x" className={classes.link}/>

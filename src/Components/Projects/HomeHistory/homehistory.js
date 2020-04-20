@@ -17,8 +17,10 @@ const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
     ['@media (max-width:750px)']: { // eslint-disable-line no-useless-computed-key
-      marginTop:10
+      marginTop:10,
+      
     },
+    height:480,
   },
   media: {
     height: 0,
@@ -83,8 +85,7 @@ function HomeHistory() {
       />
       <CardContent className={classes.content} >
         <Typography className={classes.contentP} variant="body2" color="textSecondary" component="p">
-          This impressive paella is a perfect party dish and a fun meal to cook together with your
-          guests. Add 1 cup of frozen peas along with the mussels, if you like.
+          The goal of this app is to give users more insight into the history of their home. Using React and Firebase users can submit the latest projects done on their homes. Users can then query this data to get information about a possible purchase or help on a DIY.
         </Typography>
         <div className={classes.div}>
           <FontAwesomeIcon icon={faHtml5} size="2x" className={classes.link}/>

@@ -16,7 +16,9 @@ import { faHtml5, faCss3Alt,faReact,faJsSquare,faNodeJs, faCcStripe } from '@for
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
+    height:480,
   },
+  
   media: {
     height: 0,
     paddingTop: '56.25%', // 16:9
@@ -80,8 +82,7 @@ function KJP() {
       />
       <CardContent className={classes.content} >
         <Typography className={classes.contentP} variant="body2" color="textSecondary" component="p">
-          This impressive paella is a perfect party dish and a fun meal to cook together with your
-          guests. Add 1 cup of frozen peas along with the mussels, if you like.
+          This site was built using React, Firebase, and Stripe. The owner can easily update their store through their own custom admin portal. Buyers can customize their cart and pay securely with Stripe. Users can also upload an image and submit a custom design.
         </Typography>
         <div className={classes.div}>
           <FontAwesomeIcon icon={faHtml5} size="2x" className={classes.link}/>

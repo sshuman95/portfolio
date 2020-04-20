@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
     root: {
       display: 'flex',
       margin:"50px auto",
-      ['@media (max-width:750px)']: { // eslint-disable-line no-useless-computed-key
+      '@media (max-width:750px)': {
         width: 345,
         flexGrow: 1,
       },
@@ -86,8 +86,7 @@ function Resume() {
                     <h2>Education</h2>
                     <section>
                         <h3>Virginia Commonwealth University </h3>
-                        <h5>August 2014 - July 2018</h5>
-                        <ul></ul>
+                        <h5>August 2014 - July 2018</h5>  
                     </section>
                 </article>
             </div>
