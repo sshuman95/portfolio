@@ -16,24 +16,14 @@ import { faHtml5, faCss3Alt,faReact,faJsSquare, faYelp } from '@fortawesome/free
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
-    ['@media (max-width:750px)']: { // eslint-disable-line no-useless-computed-key
-      marginTop:10
+    '@media (max-width:750px)': { // eslint-disable-line no-useless-computed-key
+      marginTop:10,
     },
-    height:480
+    height:480,
   },
   media: {
     height: 0,
     paddingTop: '56.25%', // 16:9
-  },
-  expand: {
-    transform: 'rotate(0deg)',
-    marginLeft: 'auto',
-    transition: theme.transitions.create('transform', {
-      duration: theme.transitions.duration.shortest,
-    }),
-  },
-  expandOpen: {
-    transform: 'rotate(180deg)',
   },
   avatar: {
     backgroundColor: "#CCA353",
@@ -77,6 +67,7 @@ function Ravenous() {
         subheader={<span style={{color:'white'}}>Food App</span>}
         className={classes.header}
       />
+     
       <CardMedia
         className={classes.media}
         image={Image}
@@ -92,7 +83,7 @@ function Ravenous() {
           <FontAwesomeIcon icon={faJsSquare} size="2x" className={classes.link}/>
           <FontAwesomeIcon icon={faReact} size="2x" className={classes.link}/>
           <FontAwesomeIcon icon={faYelp} size="2x" className={classes.link}/>
-          </div>
+        </div>
       </CardContent>
       <CardActions className={classes.action} disableSpacing>
       <Button size="small">

@@ -25,7 +25,7 @@ function App() {
           <li><a href="https://www.linkedin.com/in/sidney-shuman-604966160/" rel="noopener noreferrer" target="_blank">LinkedIn</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#resume">Resume</a></li>
-          <li>Contact</li>
+          <li><a href="#contact">Contact</a></li>
          
         </ul>
       </nav>
@@ -49,8 +49,14 @@ function App() {
           <Resume/>
         </article>
       </main>
-      <footer>
-
+      <footer id="contact">
+          <article>
+            <section>
+              <p>Contact Me</p>
+              <p>Email: Sidney.shuman95@gmail.com</p>
+              <p>Phone: 804-334-3358</p>
+            </section>
+          </article>
       </footer>
     </div>
   );

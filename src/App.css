@@ -115,7 +115,23 @@ min-height: 100vh;
   border-radius: 100%;
 }
 
+footer{
+  color:white;
+  width:100%;
+  background-color:rgba(30,40,11,.7);
+  margin:0 auto;
+  
+}
 
+footer p{
+  margin-bottom:0;
+  font-size: 20px;
+}
+
+footer article{
+  width:90%;
+  margin:0 auto;
+}
 
 @media only screen and (max-width:750px){
   .header{
@@ -143,4 +159,9 @@ min-height: 100vh;
     justify-content: space-between;
     height:auto;
   }
+  footer article{
+    width:345px;
+    margin:0 auto;
+  }
+ 
 }

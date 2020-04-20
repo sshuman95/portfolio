@@ -60,7 +60,7 @@ function Resume() {
                             <li>Established web hosting for site and uploaded site files to hosting account.</li>
                             <li>Kept abreast of emerging technologies, software and trends and project  applications.</li>
                             <li>JSON data is queried and mapped when a user searches for an address.</li>
-                            <li>Employed Google Autocomplete address API to easily fetch data and keep queries  consistent throughout the app.</li>
+                            <li>Employed Google Autocomplete address API to easily fetch data and keep queries consistent throughout the app.</li>
                         </ul>
                     </section>
                 </article>
@@ -86,7 +86,8 @@ function Resume() {
                     <h2>Education</h2>
                     <section>
                         <h3>Virginia Commonwealth University </h3>
-                        <h5>August 2014 - July 2018</h5>  
+                        <h5>August 2014 - July 2018</h5>
+                        <h3>Codecademy</h3>  
                     </section>
                 </article>
             </div>
